@@ -22,8 +22,8 @@ def gather_data(questionnaire_id, unix_start_date, unix_end_date):
     questionnaire = questionnaire_id  # 25,14,124,
     start = unix_start_date  # UNIX Timestamp
     end = unix_end_date  # UNIX Timestamp
-    api_key = "1551c8fd-88df-411f-b7e4-493d7ff2bc58"  # API Key
-    authentication_credentials = ("metro.sentimeter", "arbisoft")  # Authentication Credentials
+    api_key = "some_api_key"  # API Key
+    authentication_credentials = ("user.name", "password")  # Authentication Credentials
     main_url = "https://apistg.sentimeter.io/api/organizations/2/feedback/detail-list/?" \
                "questionnaire={}&api_key={}&start_date={}&end_date={}". \
         format(
